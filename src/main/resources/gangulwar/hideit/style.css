@@ -1,0 +1,13 @@
+.root {
+    -fx-background-color: #2F2F2F;
+}
+
+#decodeTitle,#encodeTitle,#successfulMessage {
+    -fx-font-family: 'Inria Serif';
+    -fx-text-fill: #FFFFFF;
+}
+
+#credits {
+    -fx-font-family: 'IM FELL English SC';
+    -fx-text-fill: rgba(255, 255, 255, 0.25);
+}

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gangulwar.hideit.SceneController">
+   <children>
+      <Button fx:id="encode_button_main" layoutX="42.0" layoutY="207.0" mnemonicParsing="false" onAction="#encodeScene" text="Encode">
+         <font>
+            <Font size="40.0" />
+         </font></Button>
+      <Button fx:id="decode_button_main" layoutX="375.0" layoutY="207.0" mnemonicParsing="false" onAction="#decodeScene" text="Decode">
+         <font>
+            <Font size="40.0" />
+         </font></Button>
+      <Label fx:id="credits" layoutX="213.0" layoutY="364.0" opacity="0.75" text="Developed By : Gangulwar">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="225.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assests/Image.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
